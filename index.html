@@ -1,70 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
-    <style type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
         body {
-            background-color: black;
-            width: 342px;
-            margin: 0px auto;
-            font-family: sans-serif;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/originals/70/d6/b3/70d6b3aaf2857dce05601505b8ca7db0.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            min-height: 100vh;
         }
 
-        /* Adjusted Navigation Bar Styles */
         nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
-            padding: 10px 0;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 100;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 10px 0; 
         }
 
         nav ul {
-            list-style-type: none;
-            display: flex;
-            gap: 20px;
+            list-style-type: none; 
+            display: flex; 
+            gap: 80px; 
         }
 
         nav ul li a {
-            color: #ffffff; /* Link color */
-            text-decoration: none;
-            font-family: 'Permanent Marker', cursive; /* Use Permanent Marker font */
-            font-weight: bold;
-        }
-
-        #pacman {
-            height: 470px;
-            width: 382px;
-            border-radius: 5px;
-            margin: 20px auto;
-        }
-
-        #shim {
-            font-family: 'Permanent Marker', cursive;
-            position: absolute;
-            visibility: hidden;
+            color: #ffffff; 
+            text-decoration: none; 
+            font-weight: bold; 
         }
 
         h1 {
-            font-family: 'Permanent Marker', cursive;
             text-align: center;
-            color: yellow;
+            padding-top: 20%;
         }
 
         p {
-            text-decoration: none;
-            color: #0000FF;
-        }
-
-        /* Placeholder for Game Container */
-        #game-container {
-            position: relative; /* Adjust based on your layout needs */
-            top: 60px; /* Adjust based on the height of your navigation bar */
+            text-align: center;
+            padding-bottom: 20%;
         }
     </style>
 </head>
@@ -72,23 +51,11 @@
     <header> 
         <nav> 
             <ul> 
-                <li><a href="index.html">PacMan - homepage</a></li>
+                <li><a href="index.html">HomePage</a></li>
                 <li><a href="Long.html">Person L</a></li>
                 <li><a href="Bryan.html">Person B</a></li>
             </ul>
         </nav>
     </header>
-    <div id="shim">shim for font face</div>
-    <h1>PacMan</h1>
-    <p style="text-align:center;">Hi LI &#x2665;</p>
-    <p style="text-align:center;">use arrow keys to move!</p>
-    <div id="pacman"></div>
-    <div id="game-container">
-        <!-- Game content goes here -->
-    </div>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="pacman.js"></script>
 </body>
 </html>
