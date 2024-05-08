@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images8.alphacoders.com/115/1156488.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 0; 
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    gap: 80px; 
+}
+
+nav ul li a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20%;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 20%;
+}
