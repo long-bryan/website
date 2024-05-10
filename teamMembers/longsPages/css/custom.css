@@ -105,16 +105,6 @@ header .header-content .header-content-inner p {
     padding: 100px 0;
 }
 
-.content-2 {
-	color: #fff;
-    background-color: #222;
-}
-
-.content-3 {
-	padding: 20px 0 40px;
-	text-align: center;
-}
-
 .promo,
 .promo h3,
 .promo a:link,
@@ -126,42 +116,6 @@ header .header-content .header-content-inner p {
     text-decoration: none;
 }
 
-.promo-item {
-    height: 200px;
-    line-height: 180px;
-    text-align: center;
-}
-
-.promo-item:hover {
-    background-size: 110%; 
-    border: 10px solid rgba(255,255,255,0.3);
-    line-height: 160px;
-}
-
-.promo-item h3 {
-    font-size: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.item-1 {
-	background: url('../images/writing.jpg');
-	}
-	
-.item-2 {
-	background: url('../images/concert.jpg');
-	}
-	
-.item-3 {
-	background: url('../images/pencil_sharpener.jpg');
-	}
-		
-.item-1,
-.item-2,
-.item-3 {
-	background-size: cover;
-	background-position: 50% 50%;
-	}
 
 .page-footer {
 	text-align: center;
