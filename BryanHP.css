@@ -1,0 +1,51 @@
+/* BryanHP.css - Adapted for consistency with the main index styling and addressing navbar padding issue */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414; /* Dark background */
+    color: #ffffff; /* Light text color */
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray; /* Light gray navbar background */
+    padding: 10px 0;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text for navbar links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    display: inline-block;
+    color: gray; /* Gray text for.nav-link */
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: black; /* Black background on hover */
+    color: white; /* White text on hover */
+}
+
+/* Additional styles for other elements if needed */
+h1, p,.gametitle,.top, hr,.bottom {
+    /* Styles for these elements would go here, matching the main index styling */
+}
