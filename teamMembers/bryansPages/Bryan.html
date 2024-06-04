@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Person B's Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="BryanHP.css">
 </head>
 <body>
     <header> 
-        <nav> 
-            <ul> 
-                <li><a href="../../index.html" class="nav-link">HomePage</a></li>
-                <li><a href="../longsPages/longhp.html" class="nav-link">Person L</a></li>
-                <li><a href="../bryansPages/Bryan.html" class="nav-link">Person B</a></li>
-            </ul>
-        </nav>
+        <div id="navbar-placeholder"></div>
+        <script>
+        $(function() {
+            $("#navbar-placeholder").load("../../nav.html");
+        });
+        </script>
     </header>
     <div class="name">
-    <h2 class> Hi, my name is</h2>
-    <h1>Person B</h1>
-    <h2></h2>
+        <h2>Hi, my name is</h2>
+        <h1>Person B</h1>
+        <h2></h2>
     </div>
     <div>
         <h1>Projects</h1>

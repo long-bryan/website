@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Sweet Home</title>
     <link rel="stylesheet" href="indexHP.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header> 
-        <nav> 
-            <ul> 
-                <li><a href="index.html" class="nav-link">HomePage</a></li>
-                <li><a href="teamMembers/longsPages/longhp.html" class="nav-link" >Person L</a></li>
-                <li><a href="teamMembers/bryansPages/Bryan.html" class="nav-link" >Person B</a></li>
-            </ul>
-        </nav>
+        <div id="navbar-placeholder"></div>
+        <script>
+        $(function() {
+            $("#navbar-placeholder").load("nav.html");
+        });
+        </script>
     </header>
+    <h1 class="top"></h1>
 </body>
 </html>
