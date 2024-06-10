@@ -21,7 +21,6 @@ p {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
-    font-size: 24px;
 }
 
 .top {
@@ -51,5 +50,30 @@ hr {
     }
 
 div:not(#navbar-placeholder) {
-    padding: 10% 0;
+    padding: 0 0;
+}
+
+.name {
+    float: left;
+    width: 50%;
+    margin-top: 10%;
+    font-size: 2.5vh;
+}
+
+.title img {
+    display: inline;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+ul {
+    max-width: 550px;
+    margin-left: 40%;
+    margin-right: auto;
+    text-align: left;
+}
+
+div {
+    width: 100%;
 }
